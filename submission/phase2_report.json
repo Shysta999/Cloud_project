@@ -1,0 +1,30 @@
+{
+  "phase": "2",
+  "environment": {
+    "colab": true
+  },
+  "attention": {
+    "naive_ms": 511.86,
+    "vectorized_ms": 2.743,
+    "speedup": 186.61
+  },
+  "threads": {
+    "1": 2733.167,
+    "2": 2161.596,
+    "4": 2225.652,
+    "8": 2542.776
+  },
+  "devices": {
+    "cpu_ms": 455320.2,
+    "gpu_ms": 13109.5
+  },
+  "training": {
+    "steps": 2000,
+    "final_loss": 1.506,
+    "param_count": 4935680
+  },
+  "sample": "\nThe lapy commen dies you have for again;\nBut me not a turn and mored.\n\nRIVERS:\nI ake it; but packly thing the order you\nfoul heavied of it my right, I it lifther\nTo shall nepinge; I'll see so me sun,\n",
+  "model": {
+    "gcs_url": "https://storage.googleapis.com/project-e452300c-ea8e-4c5f-a57-eurecomgpt/model.safetensors"
+  }
+}
